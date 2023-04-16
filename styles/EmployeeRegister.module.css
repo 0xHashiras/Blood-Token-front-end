@@ -1,0 +1,58 @@
+.empRegister{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+    font-family:monospace;
+    padding-top: 20px;
+}
+.empregForm{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.btnGroup{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.btnGroup button {
+    width: 90px;
+    height: 30px;
+    margin-top: 30px;
+    align-items: center;
+}
+.empregForm h3{
+    text-align: center;
+    align-items: center;
+    color: red;
+    /* font-family: 'Courier New', Courier, monospace; */
+}
+.div_form{
+    /* display: flex; */
+    padding: 0;
+    /* flex-direction: column;
+    text-align: center;
+    align-items: center; */
+}
+.empregForm input{
+    margin:10px;
+    width: 500px;
+    height: 30px;
+    text-align: left;
+}
+.empregForm button{
+    width: 90px;
+    height: 30px;
+    margin-top: 30px;
+    align-items: center;
+}
+.empregForm select{
+    margin:10px;
+    width: 500px;
+    height: 30px;
+    text-align: left;
+}

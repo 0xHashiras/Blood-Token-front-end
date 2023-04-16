@@ -1,0 +1,47 @@
+.empLogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:167px;
+}
+.empLogin h2{
+    font-size: 40px;
+    font-family: monospace;
+}
+.empLogin form{
+    display: flex;
+    flex-direction: column;
+
+}
+.empLogin button{
+    text-align: center;
+    margin-top: 4em;
+    width: 80px;
+    height: 30px;
+    align-self: center;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.empLogin button:hover{
+    color: white;
+    background-color: black;
+    outline: none;
+}
+
+.empLogin input{
+    width: 400px;
+    height: 30px;
+    margin:10px;
+    text-align: center;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.empLogin input:focus{
+    outline: none;
+}
